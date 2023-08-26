@@ -15,3 +15,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* function Table(props){
+  return(
+      <div>
+      <table className="min-w-full table-auto  bg-[#E1E0C1] ">
+        <caption>Chess Rating</caption>
+        <thead className="bg-[#D5D2A7] h-[41px]">
+        <tr>
+          <th scope="col" className="sticky">#</th>
+          <th scope="col" className="sticky">Name</th>
+          <th scope="col" className="sticky"></th>
+          <th scope="col" className="sticky">Rapid</th>
+          <th scope="col" className="sticky">+/-</th>
+          <th scope="col" className="sticky"></th>
+          <th scope="col" className="sticky">Classic</th>
+          <th scope="col" className="sticky"></th>
+          <th scope="col" className="sticky">Blitz</th>
+          <th scope="col" className="sticky"></th>
+          <th scope="col" className="sticky"></th>
+          <th scope="col" className="sticky">Age</th>
+          <th scope="col" className="sticky"></th>
+        </tr>
+        </thead>
+        {props.data.map((val,key) => {
+          return(
+            <tbody key={key}>
+            <tr>
+              <td>{val.id}</td>
+              <td>{val.change}</td>
+              <td>{val.name}</td>
+              <td>{val.flag}</td>
+              <td>{val.rapid}</td>
+              <td >{val.change_1}</td>
+              <td>{val.search_1}</td>
+              <td>{val.classic}</td>
+              <td>{val.search_2}</td>
+              <td>{val.blitz}</td>
+              <td>{val.empty}</td>
+              <td>{val.statistic}</td>
+              <td>{val.age}</td>
+              <td>{val.board}</td>
+            </tr>
+            </tbody>
+          )
+            }
+        )}
+      </table>
+    </div>
+  )
+} */
